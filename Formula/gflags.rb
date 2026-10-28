@@ -10,8 +10,8 @@
 class Gflags < Formula
   desc "Library for processing command-line flags"
   homepage "https://gflags.github.io/gflags/"
-  url "https://github.com/gflags/gflags/archive/refs/tags/v2.2.2.tar.gz"
-  sha256 "34af2f15cf7367513b352bdcd2493ab14ce43692d2dcd9dfc499492966c64dcf"
+  url "https://github.com/gflags/gflags/archive/refs/tags/v2.3.1.tar.gz"
+  sha256 "1b5e0648d7b94021895086e65479b4eaca7935eecfffd7dd9512eb576181c53d"
   license "BSD-3-Clause"
 
   bottle do
