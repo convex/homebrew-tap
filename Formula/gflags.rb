@@ -4,7 +4,7 @@
 # the pair consistent.
 #
 # The bottle block is copied unchanged from core, and root_url points back at
-# core's ghcr registry, so `brew install get-convex/tap/gflags` pours the exact
+# core's ghcr registry, so `brew install convex/tap/gflags` pours the exact
 # upstream bottle. The CI-only `no_autobump!` line from core is dropped (current
 # Homebrew rejects it outside homebrew-core).
 class Gflags < Formula

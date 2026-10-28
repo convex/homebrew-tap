@@ -7,7 +7,7 @@
 # 8.x rocksdb used on Linux (apt librocksdb-dev / the bundled librocksdb-sys build).
 #
 # The bottle block is copied unchanged from core, and root_url points back at
-# core's ghcr registry, so `brew install get-convex/tap/rocksdb` pours the exact
+# core's ghcr registry, so `brew install convex/tap/rocksdb` pours the exact
 # upstream bottle — no building from source, nothing for us to host. The newest
 # bottle tag here is arm64_sonoma; on newer macOS Homebrew's :or_later behavior
 # reuses it (e.g. on Tahoe).
@@ -34,7 +34,7 @@ class Rocksdb < Formula
   # (whose libgflags.2.2.dylib this bottle links against) rather than core's
   # current 2.3.0. Without this, an unqualified "gflags" resolves to core and
   # re-breaks the link.
-  depends_on "get-convex/tap/gflags"
+  depends_on "convex/tap/gflags"
   depends_on "lz4"
   depends_on "snappy"
   depends_on "zstd"
